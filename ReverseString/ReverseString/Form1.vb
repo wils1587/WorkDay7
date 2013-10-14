@@ -9,11 +9,20 @@ Public Class Form1
 
         ' Compute the result
         Dim result As String = ""
-
+        Dim i As Integer
+        For i = st.Length - 1 To 0 Step -1
+            Dim c As Char
+            c = st.Chars(i)
+            result = result & c
+        Next
 
 
         ' Report the output to the user
-        MessageBox.Show("Not implemented yet", "Result")
+        MessageBox.Show(result, "Result")
+
+    End Sub
+
+    Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
 
     End Sub
 End Class

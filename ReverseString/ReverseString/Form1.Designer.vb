@@ -27,19 +27,21 @@ Partial Class Form1
         '
         'btnStart
         '
-        Me.btnStart.Location = New System.Drawing.Point(98, 118)
+        Me.btnStart.Location = New System.Drawing.Point(74, 96)
+        Me.btnStart.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.btnStart.Name = "btnStart"
-        Me.btnStart.Size = New System.Drawing.Size(88, 29)
+        Me.btnStart.Size = New System.Drawing.Size(66, 24)
         Me.btnStart.TabIndex = 0
         Me.btnStart.Text = "Start"
         Me.btnStart.UseVisualStyleBackColor = True
         '
         'Form1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(292, 267)
+        Me.ClientSize = New System.Drawing.Size(219, 217)
         Me.Controls.Add(Me.btnStart)
+        Me.Margin = New System.Windows.Forms.Padding(2, 2, 2, 2)
         Me.Name = "Form1"
         Me.Text = "ReverseString"
         Me.ResumeLayout(False)
